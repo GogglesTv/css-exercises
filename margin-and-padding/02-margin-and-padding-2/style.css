@@ -11,17 +11,60 @@ body {
 
 .title {
   background: #e3f4ff;
+  font-size: 16px;
+  padding: 10px;
+  border: 10px solid #fff;
+  margin-bottom: -10px;
 }
 
 .content {
   background: #e3f4ff;
+  padding: 15px;
+  border: 10px solid #ffff;
 }
 
 .button-container {
   background: #e3f4ff;
+  margin-top: -10px;
+  text-align: center;
+  border: 10px solid #ffff;
+  padding: 10px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
+  margin-left: 133px;
 }
+
+/* The real solution
+
+.card {
+  padding: 8px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 16px;
+  padding: 8px;
+}
+
+.content {
+  margin-bottom: 8px;
+  padding: 16px 8px;
+}
+
+.button-container {
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 24px;
+}
+
+*/
