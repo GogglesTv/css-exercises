@@ -24,3 +24,24 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.plants {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+ margin: 32px 10rem;
+
+}
+
+.barberry,
+.chili,
+.pepper,
+.saffron {
+  flex: 0 1 52%;
+  padding: 0 26px;
+}
