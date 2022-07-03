@@ -64,11 +64,6 @@ body {
   flex: 1;
 }
 
-.container2 {
-  display: flex;
-  justify-content: center;
-}
-
 .content {
   margin: 0 auto;
   display: flex;
